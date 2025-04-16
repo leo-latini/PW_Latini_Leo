@@ -1,0 +1,126 @@
+    body {
+        font-family: 'Times New Roman', sans-serif;
+        background-color: #c6e2ff;
+        color: #333;
+        margin-bottom: 50px;
+        padding: 0;
+        line-height: 1.6;
+        font-size: 20px;
+    }
+
+    section {
+        margin-bottom: 30px;
+    }
+
+    .logo {
+        width: 400px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    header {
+        background-color: #96c1e8;
+        color: #ffffff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    main {
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #ffffff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+        color: #0a5f8a;
+    }
+
+    .download-container {
+        text-align: center;
+        margin-top: 60px; 
+        margin-bottom: 40px;
+    }
+
+    .download-button {
+        background-color: #228B22;
+        color: rgb(252, 252, 252);
+        font-size: 1.4em;
+        padding: 15px 30px;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .download-button:hover {
+        background-color: #1c7a1c;
+    }
+
+    .download-info {
+        margin-top: 20px;
+        font-size: 1.1em;
+    }
+
+    .index {
+        margin-top: 20px;
+        padding: 20px;
+        background-color: #c1c3c485;
+        border-radius: 8px;
+    }
+
+    .index h3 {
+        color: #003366;
+    }
+
+    .index ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    .index ul li {
+        font-size: 1.1em;
+        margin: 10px 0;
+    }
+
+    .index ul li a {
+        text-decoration: none;
+        color: #27619b;
+    }
+
+    .index ul li a:hover {
+        text-decoration: underline;
+    }
+
+    footer {
+        background-color: #27619b;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position:relative;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    footer a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        margin: 0 15px;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+        main {
+            width: 90%;
+            padding: 15px;
+        }
+        
+        .download-button {
+            font-size: 1.2em;
+            padding: 12px 20px;
+        }
+    }
